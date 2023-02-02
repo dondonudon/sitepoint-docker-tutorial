@@ -11,7 +11,7 @@ This repo accompanies our [tutorial](https://www.sitepoint.com/docker-php-develo
 
 1. Install Docker
 2. Open a terminal in the folder you want to store your website in (use _File_ > _Open Powershell_ on windows to open PowerShell in the currently opened folder)
-3. Run the command `docker run -v ${PWD}:/git alpine/git clone git@github.com:sitepoint-editors/sitepoint-docker-tutorial.git .` (that final dot is important!)
+3. Run the command `docker run -v ${PWD}:/git alpine/git clone git@github.com:dondonudon/sitepoint-docker-tutorial .` (that final dot is important!)
 4. Run `docker-compose up`
 5. Navigate to <http://127.0.0.1>
 6. Create your PHP scripts and files in `app/public`
